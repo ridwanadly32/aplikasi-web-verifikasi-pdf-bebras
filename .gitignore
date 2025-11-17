@@ -1,0 +1,36 @@
+# PDF files
+*.pdf
+pdf_files/*.pdf
+
+# Secure data (jangan commit kode verifikasi ke public repo)
+secure_data/verification_codes.json
+
+# File tugas/laporan (tidak perlu untuk aplikasi)
+LAPORAN_MITIGASI.html
+LAPORAN_MITIGASI.md
+CARA_BUAT_PDF.md
+generate_pdf.py
+
+# File Colab (opsional: bisa di-push untuk dokumentasi)
+# *.ipynb  # Comment jika ingin push Bebras.ipynb
+
+# File dokumentasi lama (opsional, bisa dihapus)
+readme.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
